@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (C) 2012 Droid Concepts c/o Lawrence Woodward -->
+
+<resources>
+    
+<!-- Main App Strings -->
+	<string name="set_wallpaper_button">Set your wallpaper!</string>
+	<string name="about_button">About Droid Concepts</string>
+	<string name="our_apps_button">Our other apps</string>
+	<string name="about">About</string>
+    <string name="feedback_button">Feedback and Suggestions</string>
+    <string name="website_button">Droid Concepts Website</string>
+    <string name="forums_button">Droid Concepts Forum</string>
+    <string name="about_summary">Droid Concepts is dedicated to providing you with the best possible Android 
+                                 experience. We encourage you to check out our other Android applications, and 
+                                 contact us with feedback or suggestions. \n</string>
+    <string name="our_apps">Our Other Apps</string>
+
+<!-- Wallpaper Strings -->
+    <string name="app_name">Droid Concepts Wallpapers</string>
+    <string name="set_wallpaper">Set wallpaper</string>
+
+<!-- End User Licence Agreement Strings -->
+    <string name="eula_title">End User License Agreement</string>
+    <string name="eula_accept">Accept</string>
+    <string name="eula_refuse">Refuse</string>
+    
+<!-- Other Strings -->
+	<string name="app_logo_content_description">App logo</string>
+
+</resources>

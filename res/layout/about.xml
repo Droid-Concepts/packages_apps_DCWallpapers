@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (C) 2012 Droid Concepts c/o Lawrence Woodward -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/app_background" >
+              
+            
+            <!-- In app graphic -->
+            <ImageView android:id="@+id/logo_view"
+           	    	   android:contentDescription="@string/app_logo_content_description"
+            	       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center"
+                       android:paddingTop="5dp"
+                       android:paddingBottom="5dp"
+                       android:src="@drawable/in_app_graphic" />
+            
+            
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	                      android:orientation="vertical"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_marginLeft="10dp"
+                          android:layout_marginRight="10dp"
+                          android:background="@drawable/entry_background" >
+                          
+                          
+                <!-- About summary -->
+                <TextView android:id="@+id/about_summary"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:paddingTop="5dp"
+                          android:paddingBottom="10dp"
+                          android:text="@string/about_summary"
+                          android:textColor="#ffffff"
+                          android:textSize="20dp"
+                          android:textStyle="bold"
+                          android:layout_marginLeft="10dp"
+                          android:layout_marginRight="10dp"
+                          android:gravity="center" />
+            
+                
+                <!-- Feedback Button -->
+                <Button  android:id="@+id/feedback_button"
+                         android:layout_width="fill_parent"
+                         android:layout_height="wrap_content"
+                         android:paddingTop="5dp"
+                         android:paddingBottom="10dp"
+                         android:text="@string/feedback_button"
+                         android:textColor="#ffffff"
+                         android:textSize="20dp"
+                         android:textStyle="bold"
+                         android:layout_marginLeft="10dp"
+                         android:layout_marginRight="10dp"
+                         android:background="@drawable/button_background" />
+                
+             
+                 <!-- Website Button -->
+                 <Button  android:id="@+id/website_button"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:paddingTop="5dp"
+                          android:paddingBottom="10dp"
+                          android:text="@string/website_button"
+                          android:textColor="#ffffff"
+                          android:textSize="20dp"
+                          android:textStyle="bold"
+                          android:layout_marginLeft="10dp"
+                          android:layout_marginRight="10dp"
+                          android:background="@drawable/button_background" />  
+                          
+                 <!-- Forum Button -->
+            <Button  android:id="@+id/forums_button"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:paddingTop="5dp"
+                     android:paddingBottom="10dp"
+                     android:text="@string/forums_button"
+                     android:textColor="#ffffff"
+                     android:textSize="20dp"
+                     android:textStyle="bold"
+                     android:layout_marginLeft="10dp"
+                     android:layout_marginRight="10dp"
+                     android:background="@drawable/button_background" /> 	
+                      
+             </LinearLayout>
+            
+            
+            <!-- In app copyright graphic -->
+            <ImageView android:id="@+id/copyright_view"
+           	    	   android:contentDescription="@string/app_logo_content_description"
+            	       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center"
+                       android:paddingTop="5dp"
+                       android:paddingBottom="5dp"
+                       android:src="@drawable/in_app_copyright" />
+            
+            
+</LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (C) 2012 Droid Concepts c/o Lawrence Woodward -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/app_background" >
+              
+            
+            <!-- In app graphic -->
+            <ImageView android:id="@+id/logo_view"
+           	    	   android:contentDescription="@string/app_logo_content_description"
+            	       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center"
+                       android:paddingTop="5dp"
+                       android:paddingBottom="5dp"
+                       android:src="@drawable/in_app_graphic" />
+            
+            
+            <LinearLayout android:orientation="vertical"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content">
+                          
+                
+                <!-- Row 1 -->
+            	<RelativeLayout android:orientation="horizontal"
+            	                android:layout_width="fill_parent"
+            	                android:layout_height="wrap_content"
+            	                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp" >
+                	<!-- Beer Notes Button -->
+                	<Button  android:id="@+id/beernotes_button"
+                    	     android:layout_width="wrap_content"
+	                         android:layout_height="wrap_content"
+    	                     android:paddingTop="5dp"
+        	                 android:paddingBottom="10dp"
+            	             android:layout_marginLeft="10dp"
+                	         android:layout_marginRight="10dp"
+                    	     android:background="@drawable/oa_beer_icon"
+                        	 android:layout_alignParentLeft="true" />
+                	<!-- Cigar Box Button -->
+                	<Button  android:id="@+id/cigarbox_button"
+	                         android:layout_width="wrap_content"
+    	                     android:layout_height="wrap_content"
+        	                 android:paddingTop="5dp"
+            	             android:paddingBottom="10dp"
+                	         android:layout_marginLeft="10dp"
+                        	 android:layout_marginRight="10dp"
+                        	 android:background="@drawable/oa_cigar_icon"
+                    	     android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                         
+            	
+            	<!-- Row 2 -->
+            	<RelativeLayout android:orientation="horizontal"
+            	                android:layout_width="fill_parent"
+            	                android:layout_height="wrap_content"
+            	                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp" >
+                <!-- Coffee Pot Button -->
+                <Button  android:id="@+id/coffeepot_button"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:paddingTop="5dp"
+                         android:paddingBottom="10dp"
+                         android:layout_marginLeft="10dp"
+                         android:layout_marginRight="10dp"
+                         android:background="@drawable/oa_coffee_icon"
+                         android:layout_alignParentLeft="true" />
+                <!-- Comic Box Button -->
+                <Button  android:id="@+id/comicbox_button"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:paddingTop="5dp"
+                         android:paddingBottom="10dp"
+                         android:layout_marginLeft="10dp"
+                         android:layout_marginRight="10dp"
+                         android:background="@drawable/oa_comic_icon"
+                         android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                
+                
+            	<!-- Row 3 -->
+            	<RelativeLayout android:orientation="horizontal"
+            	                android:layout_width="fill_parent"
+            	                android:layout_height="wrap_content"
+            	                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp" >
+                <!-- Liquor Cabinet Button -->
+                <Button  android:id="@+id/liquorcabinet_button"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:paddingTop="5dp"
+                         android:paddingBottom="10dp"
+                         android:layout_marginLeft="10dp"
+                         android:layout_marginRight="10dp"
+                         android:background="@drawable/oa_liquor_icon"
+                         android:layout_alignParentLeft="true" />
+                <!-- Wine Rack Button -->
+                <Button  android:id="@+id/winerack_button"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:paddingTop="5dp"
+                         android:paddingBottom="10dp"
+                         android:layout_marginLeft="10dp"
+                         android:layout_marginRight="10dp"
+                         android:background="@drawable/oa_wine_icon"
+                         android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                      
+             </LinearLayout>
+            
+            
+            <!-- In app copyright graphic -->
+            <ImageView android:id="@+id/copyright_view"
+           	    	   android:contentDescription="@string/app_logo_content_description"
+            	       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center"
+                       android:paddingTop="5dp"
+                       android:paddingBottom="5dp"
+                       android:src="@drawable/in_app_copyright" />
+            
+    	
+</LinearLayout>

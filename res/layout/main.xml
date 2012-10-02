@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copyright (C) 2012 Droid Concepts c/o Lawrence Woodward -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/app_background" >
+              
+            
+            <!-- In app graphic -->
+            <ImageView android:id="@+id/logo_view"
+           	    	   android:contentDescription="@string/app_logo_content_description"
+            	       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center"
+                       android:paddingTop="5dp"
+                       android:paddingBottom="5dp"
+                       android:src="@drawable/in_app_graphic" />
+            
+            
+            <!-- Set Wallpaper Button -->
+            <Button  android:id="@+id/wallpaper_button"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:paddingTop="5dp"
+                     android:paddingBottom="10dp"
+                     android:text="@string/set_wallpaper_button"
+                     android:textColor="#ffffff"
+                     android:textSize="20dp"
+                     android:textStyle="bold"
+                     android:layout_marginLeft="10dp"
+                     android:layout_marginRight="10dp"
+                     android:layout_marginBottom="5dp"
+                     android:background="@drawable/entry_background" />
+            
+            
+            <!-- About Button -->
+            <Button  android:id="@+id/about_button"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:paddingTop="5dp"
+                     android:paddingBottom="10dp"
+                     android:text="@string/about_button"
+                     android:textColor="#ffffff"
+                     android:textSize="20dp"
+                     android:textStyle="bold"
+                     android:layout_marginLeft="10dp"
+                     android:layout_marginRight="10dp"
+                     android:layout_marginBottom="5dp"
+                     android:background="@drawable/entry_background" />
+            
+            
+            <!-- Our Apps Button -->
+            <Button  android:id="@+id/our_apps_button"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:paddingTop="5dp"
+                     android:paddingBottom="10dp"
+                     android:text="@string/our_apps_button"
+                     android:textColor="#ffffff"
+                     android:textSize="20dp"
+                     android:textStyle="bold"
+                     android:layout_marginLeft="10dp"
+                     android:layout_marginRight="10dp"
+                     android:layout_marginBottom="5dp"
+                     android:background="@drawable/entry_background" />
+            
+            
+            <!-- In app copyright graphic -->
+            <ImageView android:id="@+id/copyright_view"
+           	    	   android:contentDescription="@string/app_logo_content_description"
+            	       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center"
+                       android:paddingTop="5dp"
+                       android:paddingBottom="5dp"
+                       android:src="@drawable/in_app_copyright" />
+            
+    	
+</LinearLayout>
